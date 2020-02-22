@@ -1,16 +1,14 @@
-@charset "UTF-8"
-
-.sample {
-    background-image: url(./images/main.png) no-repeat;
+.top-wrapper {
+    padding: 180px 0 100px 0;
+    background-image: url(images/main.png) repeat;
     background-size: cover;
-    background-color: aqua
-}
-
-.sample p {
-    color: beige;
 }
 
 .container {
     width: 800px;
-    margin:auto;
+    margin: auto;
+}
+
+.container p {
+    color: white;
 }

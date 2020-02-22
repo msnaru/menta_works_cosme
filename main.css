@@ -1,17 +1,16 @@
 /* line 1, /Users/shungo/Documents/Other/personal/sidej/menta/menta_works_cosme/main.scss */
-"UTF-8"
-.sample {
-  background-image: url(./images/main.png) no-repeat;
-  background-size: cover;
-  background-color: aqua; }
+.top-wrapper {
+  padding: 180px 0 100px 0;
+  background-image: url(images/main.png) repeat;
+  background-size: cover; }
 
-/* line 9, /Users/shungo/Documents/Other/personal/sidej/menta/menta_works_cosme/main.scss */
-.sample p {
-  color: beige; }
-
-/* line 13, /Users/shungo/Documents/Other/personal/sidej/menta/menta_works_cosme/main.scss */
+/* line 7, /Users/shungo/Documents/Other/personal/sidej/menta/menta_works_cosme/main.scss */
 .container {
   width: 800px;
   margin: auto; }
+
+/* line 12, /Users/shungo/Documents/Other/personal/sidej/menta/menta_works_cosme/main.scss */
+.container p {
+  color: white; }
 
 /*# sourceMappingURL=main.css.map */
