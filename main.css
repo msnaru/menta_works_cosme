@@ -33,4 +33,14 @@ body {
   display: inline;
   margin: 0 40px; }
 
+/* line 35, /Users/shungo/Documents/Other/personal/sidej/menta/menta_works_cosme/main.scss */
+.nav-list:hover {
+  padding-bottom: 5px;
+  border-bottom: 5px solid black; }
+
+/* line 40, /Users/shungo/Documents/Other/personal/sidej/menta/menta_works_cosme/main.scss */
+.nav-list {
+  color: black;
+  text-decoration: none; }
+
 /*# sourceMappingURL=main.css.map */
