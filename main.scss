@@ -1,5 +1,10 @@
+body{
+    margin: 0;
+}
+
 .top-wrapper {
-    padding: 180px 0 100px 0;
+    height:806px;
+    width:100%;
     background-image: url(images/main.png);
     background-size: cover;
 }
@@ -14,9 +19,15 @@
 }
 
 .header-left {
+    margin:20px;
     float:left;
 }
 
 .header-right{
+    margin:20px;
     float:right;
+}
+.header-right ul li {
+    display: inline;
+    margin: 0 40px;
 }

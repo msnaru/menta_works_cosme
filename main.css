@@ -1,24 +1,36 @@
 /* line 1, /Users/shungo/Documents/Other/personal/sidej/menta/menta_works_cosme/main.scss */
+body {
+  margin: 0; }
+
+/* line 5, /Users/shungo/Documents/Other/personal/sidej/menta/menta_works_cosme/main.scss */
 .top-wrapper {
-  padding: 180px 0 100px 0;
+  height: 806px;
+  width: 100%;
   background-image: url(images/main.png);
   background-size: cover; }
 
-/* line 7, /Users/shungo/Documents/Other/personal/sidej/menta/menta_works_cosme/main.scss */
+/* line 12, /Users/shungo/Documents/Other/personal/sidej/menta/menta_works_cosme/main.scss */
 .container {
   width: 800px;
   margin: auto; }
 
-/* line 12, /Users/shungo/Documents/Other/personal/sidej/menta/menta_works_cosme/main.scss */
+/* line 17, /Users/shungo/Documents/Other/personal/sidej/menta/menta_works_cosme/main.scss */
 .container p {
   color: white; }
 
-/* line 16, /Users/shungo/Documents/Other/personal/sidej/menta/menta_works_cosme/main.scss */
+/* line 21, /Users/shungo/Documents/Other/personal/sidej/menta/menta_works_cosme/main.scss */
 .header-left {
+  margin: 20px;
   float: left; }
 
-/* line 20, /Users/shungo/Documents/Other/personal/sidej/menta/menta_works_cosme/main.scss */
+/* line 26, /Users/shungo/Documents/Other/personal/sidej/menta/menta_works_cosme/main.scss */
 .header-right {
+  margin: 20px;
   float: right; }
+
+/* line 30, /Users/shungo/Documents/Other/personal/sidej/menta/menta_works_cosme/main.scss */
+.header-right ul li {
+  display: inline;
+  margin: 0 40px; }
 
 /*# sourceMappingURL=main.css.map */
