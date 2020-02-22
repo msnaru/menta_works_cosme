@@ -13,4 +13,12 @@
 .container p {
   color: white; }
 
+/* line 16, /Users/shungo/Documents/Other/personal/sidej/menta/menta_works_cosme/main.scss */
+.header-left {
+  float: left; }
+
+/* line 20, /Users/shungo/Documents/Other/personal/sidej/menta/menta_works_cosme/main.scss */
+.header-right {
+  float: right; }
+
 /*# sourceMappingURL=main.css.map */
