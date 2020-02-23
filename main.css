@@ -100,4 +100,20 @@ h1 {
   display: block;
   clear: both; }
 
+/* line 105, /Users/shungo/Documents/Other/personal/sidej/menta/menta_works_cosme/main.scss */
+.scroll {
+  width: 37px; }
+
+/* line 109, /Users/shungo/Documents/Other/personal/sidej/menta/menta_works_cosme/main.scss */
+.scroll span {
+  width: 1em;
+  height: 1em;
+  position: absolute;
+  top: 90%;
+  left: 50%;
+  transform: rotate(-45deg);
+  border-left: 10px solid white;
+  border-bottom: 10px solid white;
+  z-index: 2; }
+
 /*# sourceMappingURL=main.css.map */
