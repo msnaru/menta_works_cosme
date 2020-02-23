@@ -1,8 +1,11 @@
+//@import "reset";
+
 body{
     margin: 0;
+
 }
 
-.top-wrapper {
+header {
     height:806px;
     width:100%;
     background-image: url(images/main.png);
@@ -55,4 +58,19 @@ body{
     color:white;
     margin-top:6px;
 
+}
+
+#nav-header {
+    height:80px;
+}
+
+header {
+    height:806px;
+    width:100%;
+    background-image: url(images/main.png);
+    background-size: cover;
+}
+
+h1 {
+    font-size: 64px;
 }
