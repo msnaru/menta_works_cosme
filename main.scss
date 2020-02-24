@@ -25,6 +25,9 @@ header {
     letter-spacing: 0.05em;
     color: white;
     margin-top: 15px;
+    position: absolute;
+    left: 138px;
+    top: 520px;
 }
 
 .header-left {
@@ -171,8 +174,6 @@ h1 {
 h3 {
     font-size: 24px;
     font-weight: bold;
-    font-family: "游ゴシック体", YuGothic;
-    margin-top: 43px;
 }
 
 .plane-about {
@@ -216,10 +217,178 @@ h2 {
 
 .item-box {
     width: 324px;
-    border: 1px solid black;
+    height: 450px;
     float: left;
+    margin-right: 16px;
 }
 
 .item-boxes {
     margin: 25px 0;
 }
+
+.h3-sub {
+    font-size: 16px;
+    font-weight: bold;
+    letter-spacing: 0.02;
+    margin-top: 20px;
+}
+
+.h3-about {
+    font-family: "游ゴシック体", YuGothic;
+    margin-top: 43px;
+}
+
+.h3-item {
+    margin-top: 43px;
+    letter-spacing: 0.02;
+    line-height: 1.333;
+    font-family: 'Montserrat', ;
+}
+
+.item-description {
+    margin-top: 16px;
+}
+
+.Price {
+    height: 1000px;
+}
+
+.price-box {
+    float: left;
+    width: 380px;
+    height: 496px;
+    border: 5px solid #A38787;
+    background-color: rgba(255,255,255, 0.8);
+    margin-left: 138px;
+    padding: 55px 57px 0 57px;
+
+}
+
+.h2-price {
+    text-align: center;
+}
+
+.h2-border-price {
+    margin: 16px auto 0 auto;
+}
+
+.h2-sub-price {
+    text-align: center;
+}
+
+.price-image {
+    height: 884px;
+    width: 763px;
+    background-image: url(images/price.png);
+    background-size: cover;
+    margin: 93px 138px 0 auto;
+}
+
+.blog-image191203 {
+    width: 324px;
+    height: 215px;
+    background-image: url(images/kyle-smith-528243-unsplash.png);
+    background-size: cover;
+}
+
+.blog-image191102 {
+    width: 324px;
+    height: 215px;
+    background-image: url(images/tamara-bellis-131260-unsplash.png);
+    background-size: cover;
+}
+
+.blog-image191102_2 {
+    width: 324px;
+    height: 215px;
+    background-image: url(images/blog3.png);
+    background-size: cover;
+}
+
+.blog {
+    height: 600px;
+    margin: 0 138px;
+}
+
+.blog-boxes {
+    margin: 25px 0;
+}
+
+.blog-box {
+    width: 324px;
+    height: 450px;
+    float: left;
+    margin-right: 16px;
+}
+
+.blog-description {
+    margin-top: 16px;
+}
+
+.access {
+    height: 1200px;
+    margin: 0 138px;
+}
+
+.access-box {
+    margin-top: 43px;
+    width: 30%;
+    text-align: left;
+    float: left;
+}
+
+.access-image {
+    height: 421px;
+    width: 664px;
+    background-image: url(images/access.png);
+    background-size: cover;
+    margin-left: auto;
+    margin-top: 43px;
+}
+
+.access-description {
+    margin-top: 5px;
+}
+
+.h3-access {
+    margin-top: 30px;
+    letter-spacing: 0.02;
+    line-height: 1.333;
+    font-family: 'Montserrat', ;
+}
+
+.h3-directions {
+    font-family: "游ゴシック体", YuGothic;
+}
+
+.directions {
+    width: 751px;
+    height: 316px;
+    margin: 150px auto;
+}
+
+.directions-description {
+    margin-top: 32px;
+    font-family: "游ゴシック体", YuGothic;
+    font-weight: 500px;
+    letter-spacing: 0.05;
+    font-size: 16px;
+    line-height: 1.5;
+}
+
+footer {
+    height: 264px;
+    background-color: #262626;
+    border: 1px solid #5C3333;
+}
+
+.footer-logo {
+    margin: 100px auto auto auto;
+    text-align: center;
+    font-size: 80px;
+    font-weight: bold;
+    letter-spacing: 0.05;
+    color: white;
+}
+
+
