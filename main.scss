@@ -1,13 +1,13 @@
 //@import "reset";
 
-body{
+body {
     margin: 0;
     font-family: 'Montserrat', ;
 }
 
 header {
-    height:100%;
-    width:100%;
+    height: 100%;
+    width: 100%;
     background-image: url(images/main.png);
     background-size: cover;
 }
@@ -29,27 +29,28 @@ header {
 }
 
 .header-left {
-    float:left;
+    float: left;
 }
 
-.header-right{
+.header-right {
     float: right;
     margin-top: 30px;
 
 }
+
 .header-right ul li {
     display: inline;
     margin: 0 35px;
 }
 
-.nav-list:hover{
+.nav-list:hover {
     padding-bottom: 5px;
     border-bottom: 8px solid black;
     font-size: 18px;
 }
 
-.nav-list{
-    color:black;
+.nav-list {
+    color: black;
     text-decoration: none;
     font-size: 18px;
 }
@@ -57,32 +58,32 @@ header {
 #LogoLOGO {
     font-size: 20px;
     font-weight: bold;
-    color:white;
-    margin:0;
+    color: white;
+    margin: 0;
     letter-spacing: 0.05em;
     position: absolute;
-    top:36px;
-    left:40px;
+    top: 36px;
+    left: 40px;
 }
 
 #LogoLOGO-sub {
     font-size: 12px;
     font-family: "游ゴシック体", YuGothic;
     letter-spacing: 0.05em;
-    color:white;
-    margin-top:6px;
+    color: white;
+    margin-top: 6px;
     position: absolute;
     top: 68px;
-    left:40px;
+    left: 40px;
 }
 
 #nav-header {
-    height:100px;
+    height: 100px;
 }
 
 header {
-    height:806px;
-    width:100%;
+    height: 806px;
+    width: 100%;
     background-image: url(images/main.png);
     background-size: cover;
 }
@@ -96,24 +97,29 @@ h1 {
 }
 
 .clearfix {
-   content: "";
-   display: block;
-   clear: both;
+    content: "";
+    display: block;
+    clear: both;
 }
 
 
 .scroll {
-    width: 37px;
+    display:block;
+    width: 60px;
+    margin: 621px auto 0 auto;
 }
 
 .scroll span {
-   width: 1em;
-   height: 1em;
-   position: absolute;
-   top: 90%;
-   left: 50%;
-   transform: rotate(-45deg);
-   border-left: 10px solid white;
-   border-bottom: 10px solid white;
-   z-index: 2;
+    width: 27px;
+    height: 27px;
+    -webkit-transform: rotate(-45deg);
+    -moz-transform: rotate(-45deg);
+    -ms-transform: rotate(-45deg);
+    -o-transform: rotate(-45deg);
+    transform: rotate(-45deg);
+    border-left: 10px solid white;
+    border-bottom: 10px solid white;
+    z-index: 1;
+    display:inline-block;
+    text-align: center;
 }
