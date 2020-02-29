@@ -130,11 +130,10 @@ h1 {
 .about-box {
     float: left;
     width: 304px;
-    height: 448px;
     border: 1px solid #707070;
     background-color: rgb(240,240,240);
-    margin: 186px 0 0 138px;
-    padding: 77px 57px 0 57px;
+    margin: 186px 0 0 0;
+    padding: 77px 57px 77px 57px;
 }
 
 .about-image {
@@ -143,12 +142,9 @@ h1 {
     float: right;
     background-image: url(images/about.png);
     background-size: cover;
-    margin: 245px 138px 0 0;
+    margin: 245px 0 0 0;
 }
 
-.about {
-    height: 800px;
-}
 
 
 
@@ -204,8 +200,8 @@ h2 {
 }
 
 .item {
-    height: 800px;
-    margin: 0 138px;
+    width:1004px;
+    margin: 100px auto;
 }
 
 .foundation-image {
@@ -217,12 +213,12 @@ h2 {
 
 .item-box {
     width: 324px;
-    height: 450px;
     float: left;
     margin-right: 16px;
 }
 
 .item-boxes {
+    width:1020px;
     margin: 25px 0;
 }
 
@@ -249,19 +245,14 @@ h2 {
     margin-top: 16px;
 }
 
-.Price {
-    height: 1000px;
-}
 
 .price-box {
     float: left;
     width: 380px;
-    height: 496px;
     border: 5px solid #A38787;
     background-color: rgba(255,255,255, 0.8);
-    margin-left: 138px;
-    padding: 55px 57px 0 57px;
-
+    padding: 55px 57px 55px 57px;
+    margin: 0 auto auto 0;
 }
 
 .h2-price {
@@ -281,7 +272,7 @@ h2 {
     width: 763px;
     background-image: url(images/price.png);
     background-size: cover;
-    margin: 93px 138px 0 auto;
+    margin: 193px 0 0 auto;
 }
 
 .blog-image191203 {
@@ -306,17 +297,17 @@ h2 {
 }
 
 .blog {
-    height: 600px;
-    margin: 0 138px;
+    width: 1004px;
+    margin: 100px auto;
 }
 
 .blog-boxes {
+    width: 1020px;
     margin: 25px 0;
 }
 
 .blog-box {
     width: 324px;
-    height: 450px;
     float: left;
     margin-right: 16px;
 }
@@ -326,8 +317,8 @@ h2 {
 }
 
 .access {
-    height: 1200px;
-    margin: 0 138px;
+    width: 1004px;
+    margin: 100px auto;
 }
 
 .access-box {
@@ -363,7 +354,6 @@ h2 {
 
 .directions {
     width: 751px;
-    height: 316px;
     margin: 150px auto;
 }
 
@@ -377,13 +367,12 @@ h2 {
 }
 
 footer {
-    height: 264px;
     background-color: #262626;
     border: 1px solid #5C3333;
 }
 
 .footer-logo {
-    margin: 100px auto auto auto;
+    margin: 100px auto 100px auto;
     text-align: center;
     font-size: 80px;
     font-weight: bold;
@@ -392,3 +381,14 @@ footer {
 }
 
 
+
+.Price {
+    width: 1004px;
+    margin: 100px auto;
+    overflow:hidden;
+}
+
+.about {
+    width:1004px;
+    margin: 100px auto;
+}
