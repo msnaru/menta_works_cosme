@@ -41,8 +41,6 @@ header {
     }
 }
 
-.nav-list
-
 .nav-list {
     color: black;
     text-decoration: none;
@@ -325,11 +323,9 @@ h2 {
     float: left;
 }
 
-.access-image {
+.ggmap {
     height: 421px;
     width: 664px;
-    background-image: url(images/access.png);
-    background-size: cover;
     margin-left: auto;
     margin-top: 43px;
 }
