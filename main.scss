@@ -11,23 +11,21 @@ header {
     background-image: url(images/main.png);
     background-size: cover;
     background-color: white;
-}
-
-.container {
-    width: 800px;
-    margin: auto;
-}
-
-.container p {
-    font-family: "游ゴシック体", YuGothic;
-    font-weight: bold;
-    font-size: 24px;
-    letter-spacing: 0.05em;
-    color: white;
-    margin-top: 15px;
-    position: absolute;
-    left: 138px;
-    top: 520px;
+    .container {
+        width: 800px;
+        margin: auto;
+        p {
+            font-family: "游ゴシック体", YuGothic;
+            font-weight: bold;
+            font-size: 24px;
+            letter-spacing: 0.05em;
+            color: white;
+            margin-top: 15px;
+            position: absolute;
+            left: 138px;
+            top: 520px;
+        }
+    }
 }
 
 .header-left {
@@ -37,24 +35,23 @@ header {
 .header-right {
     float: right;
     margin-top: 30px;
-
+    ul li {
+        display: inline;
+        margin: 0 35px;
+    }
 }
 
-.header-right ul li {
-    display: inline;
-    margin: 0 35px;
-}
-
-.nav-list:hover {
-    padding-bottom: 5px;
-    border-bottom: 8px solid black;
-    font-size: 18px;
-}
+.nav-list
 
 .nav-list {
     color: black;
     text-decoration: none;
     font-size: 18px;
+    &:hover {
+        padding-bottom: 5px;
+        border-bottom: 8px solid black;
+        font-size: 18px;
+    }
 }
 
 #LogoLOGO {
