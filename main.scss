@@ -202,7 +202,6 @@ h2 {
 .foundation-image {
     width: 324px;
     height: 215px;
-    background-image: url(images/item.png);
     background-size: cover;
 }
 
@@ -231,6 +230,8 @@ h2 {
 }
 
 .h3-item {
+    font-size: 24px;
+    font-weight: bold;
     margin-top: 43px;
     letter-spacing: 0.02;
     line-height: 1.333;
@@ -385,4 +386,8 @@ footer {
 .about {
     width:1004px;
     margin: 100px auto;
+}
+
+#eye-shadow {
+    text-align: center;
 }
