@@ -41,19 +41,17 @@ header {
     margin: 0 35px; }
 
 /* line 44, /Users/shungo/Documents/Other/personal/sidej/menta/menta_works_cosme/main.scss */
-.nav-list
 .nav-list {
   color: black;
   text-decoration: none;
   font-size: 18px; }
-  /* line 50, /Users/shungo/Documents/Other/personal/sidej/menta/menta_works_cosme/main.scss */
-  .nav-list
-.nav-list:hover {
+  /* line 48, /Users/shungo/Documents/Other/personal/sidej/menta/menta_works_cosme/main.scss */
+  .nav-list:hover {
     padding-bottom: 5px;
     border-bottom: 8px solid black;
     font-size: 18px; }
 
-/* line 57, /Users/shungo/Documents/Other/personal/sidej/menta/menta_works_cosme/main.scss */
+/* line 55, /Users/shungo/Documents/Other/personal/sidej/menta/menta_works_cosme/main.scss */
 #LogoLOGO {
   font-size: 20px;
   font-weight: bold;
@@ -64,7 +62,7 @@ header {
   top: 36px;
   left: 40px; }
 
-/* line 68, /Users/shungo/Documents/Other/personal/sidej/menta/menta_works_cosme/main.scss */
+/* line 66, /Users/shungo/Documents/Other/personal/sidej/menta/menta_works_cosme/main.scss */
 #LogoLOGO-sub {
   font-size: 12px;
   font-family: "游ゴシック体", YuGothic;
@@ -75,18 +73,18 @@ header {
   top: 68px;
   left: 40px; }
 
-/* line 79, /Users/shungo/Documents/Other/personal/sidej/menta/menta_works_cosme/main.scss */
+/* line 77, /Users/shungo/Documents/Other/personal/sidej/menta/menta_works_cosme/main.scss */
 #nav-header {
   height: 100px; }
 
-/* line 83, /Users/shungo/Documents/Other/personal/sidej/menta/menta_works_cosme/main.scss */
+/* line 81, /Users/shungo/Documents/Other/personal/sidej/menta/menta_works_cosme/main.scss */
 header {
   height: 806px;
   width: 100%;
   background-image: url(images/main.png);
   background-size: cover; }
 
-/* line 90, /Users/shungo/Documents/Other/personal/sidej/menta/menta_works_cosme/main.scss */
+/* line 88, /Users/shungo/Documents/Other/personal/sidej/menta/menta_works_cosme/main.scss */
 h1 {
   font-size: 64px;
   line-height: 1.25;
@@ -94,19 +92,19 @@ h1 {
   left: 138px;
   top: 360px; }
 
-/* line 98, /Users/shungo/Documents/Other/personal/sidej/menta/menta_works_cosme/main.scss */
+/* line 96, /Users/shungo/Documents/Other/personal/sidej/menta/menta_works_cosme/main.scss */
 .clearfix::after {
   content: "";
   display: block;
   clear: both; }
 
-/* line 105, /Users/shungo/Documents/Other/personal/sidej/menta/menta_works_cosme/main.scss */
+/* line 103, /Users/shungo/Documents/Other/personal/sidej/menta/menta_works_cosme/main.scss */
 .scroll {
   display: block;
   width: 60px;
   margin: 621px auto 0 auto; }
 
-/* line 111, /Users/shungo/Documents/Other/personal/sidej/menta/menta_works_cosme/main.scss */
+/* line 109, /Users/shungo/Documents/Other/personal/sidej/menta/menta_works_cosme/main.scss */
 .scroll span {
   width: 27px;
   height: 27px;
@@ -122,7 +120,7 @@ h1 {
   display: inline-block;
   text-align: center; }
 
-/* line 127, /Users/shungo/Documents/Other/personal/sidej/menta/menta_works_cosme/main.scss */
+/* line 125, /Users/shungo/Documents/Other/personal/sidej/menta/menta_works_cosme/main.scss */
 .about-box {
   float: left;
   width: 304px;
@@ -131,7 +129,7 @@ h1 {
   margin: 186px 0 0 0;
   padding: 77px 57px 77px 57px; }
 
-/* line 136, /Users/shungo/Documents/Other/personal/sidej/menta/menta_works_cosme/main.scss */
+/* line 134, /Users/shungo/Documents/Other/personal/sidej/menta/menta_works_cosme/main.scss */
 .about-image {
   height: 329.29px;
   width: 494px;
@@ -140,30 +138,30 @@ h1 {
   background-size: cover;
   margin: 245px 0 0 0; }
 
-/* line 149, /Users/shungo/Documents/Other/personal/sidej/menta/menta_works_cosme/main.scss */
+/* line 147, /Users/shungo/Documents/Other/personal/sidej/menta/menta_works_cosme/main.scss */
 .h2-about {
   font-size: 48px;
   font-weight: bold; }
 
-/* line 154, /Users/shungo/Documents/Other/personal/sidej/menta/menta_works_cosme/main.scss */
+/* line 152, /Users/shungo/Documents/Other/personal/sidej/menta/menta_works_cosme/main.scss */
 .h2-sub {
   font-size: 16px;
   font-weight: bold;
   font-family: "游ゴシック体", YuGothic;
   margin-top: 15px; }
 
-/* line 161, /Users/shungo/Documents/Other/personal/sidej/menta/menta_works_cosme/main.scss */
+/* line 159, /Users/shungo/Documents/Other/personal/sidej/menta/menta_works_cosme/main.scss */
 .h2-border {
   border-bottom: 5px solid black;
   margin-top: 16px;
   width: 69px; }
 
-/* line 167, /Users/shungo/Documents/Other/personal/sidej/menta/menta_works_cosme/main.scss */
+/* line 165, /Users/shungo/Documents/Other/personal/sidej/menta/menta_works_cosme/main.scss */
 h3 {
   font-size: 24px;
   font-weight: bold; }
 
-/* line 172, /Users/shungo/Documents/Other/personal/sidej/menta/menta_works_cosme/main.scss */
+/* line 170, /Users/shungo/Documents/Other/personal/sidej/menta/menta_works_cosme/main.scss */
 .plane-about {
   width: 305px;
   font-size: 16px;
@@ -171,61 +169,63 @@ h3 {
   margin-top: 15px;
   line-height: 2; }
 
-/* line 180, /Users/shungo/Documents/Other/personal/sidej/menta/menta_works_cosme/main.scss */
+/* line 178, /Users/shungo/Documents/Other/personal/sidej/menta/menta_works_cosme/main.scss */
 h2 {
   font-size: 48px;
   font-weight: bold;
   margin: 5px 0; }
 
-/* line 186, /Users/shungo/Documents/Other/personal/sidej/menta/menta_works_cosme/main.scss */
+/* line 184, /Users/shungo/Documents/Other/personal/sidej/menta/menta_works_cosme/main.scss */
 .description {
   font-family: "游ゴシック体", YuGothic;
   font-weight: 500px;
   font-size: 16px;
   line-height: 2; }
 
-/* line 193, /Users/shungo/Documents/Other/personal/sidej/menta/menta_works_cosme/main.scss */
+/* line 191, /Users/shungo/Documents/Other/personal/sidej/menta/menta_works_cosme/main.scss */
 .about-description {
   margin-top: 15px;
   width: 305px; }
 
-/* line 199, /Users/shungo/Documents/Other/personal/sidej/menta/menta_works_cosme/main.scss */
+/* line 197, /Users/shungo/Documents/Other/personal/sidej/menta/menta_works_cosme/main.scss */
 .item {
   width: 1004px;
   margin: 100px auto; }
 
-/* line 204, /Users/shungo/Documents/Other/personal/sidej/menta/menta_works_cosme/main.scss */
+/* line 202, /Users/shungo/Documents/Other/personal/sidej/menta/menta_works_cosme/main.scss */
 .foundation-image {
   width: 324px;
   height: 215px;
-  background-image: url(images/item.png);
   background-size: cover; }
 
-/* line 211, /Users/shungo/Documents/Other/personal/sidej/menta/menta_works_cosme/main.scss */
+/* line 208, /Users/shungo/Documents/Other/personal/sidej/menta/menta_works_cosme/main.scss */
 .item-box {
   width: 324px;
   float: left;
-  margin-right: 16px; }
+  margin-right: 16px;
+  list-style-type: none; }
 
-/* line 217, /Users/shungo/Documents/Other/personal/sidej/menta/menta_works_cosme/main.scss */
+/* line 215, /Users/shungo/Documents/Other/personal/sidej/menta/menta_works_cosme/main.scss */
 .item-boxes {
   width: 1020px;
   margin: 25px 0; }
 
-/* line 222, /Users/shungo/Documents/Other/personal/sidej/menta/menta_works_cosme/main.scss */
-.h3-sub {
+/* line 220, /Users/shungo/Documents/Other/personal/sidej/menta/menta_works_cosme/main.scss */
+.blog-sub {
   font-size: 16px;
   font-weight: bold;
   letter-spacing: 0.02;
   margin-top: 20px; }
 
-/* line 229, /Users/shungo/Documents/Other/personal/sidej/menta/menta_works_cosme/main.scss */
+/* line 227, /Users/shungo/Documents/Other/personal/sidej/menta/menta_works_cosme/main.scss */
 .h3-about {
   font-family: "游ゴシック体", YuGothic;
   margin-top: 43px; }
 
-/* line 234, /Users/shungo/Documents/Other/personal/sidej/menta/menta_works_cosme/main.scss */
+/* line 232, /Users/shungo/Documents/Other/personal/sidej/menta/menta_works_cosme/main.scss */
 .h3-item {
+  font-size: 24px;
+  font-weight: bold;
   margin-top: 43px;
   letter-spacing: 0.02;
   line-height: 1.333;
@@ -238,10 +238,10 @@ h2 {
 /* line 246, /Users/shungo/Documents/Other/personal/sidej/menta/menta_works_cosme/main.scss */
 .price-box {
   float: left;
-  width: 380px;
+  width: 294px;
   border: 5px solid #A38787;
   background-color: rgba(255, 255, 255, 0.8);
-  padding: 55px 57px 55px 57px;
+  padding: 55px 85px;
   margin: 0 auto auto 0; }
 
 /* line 255, /Users/shungo/Documents/Other/personal/sidej/menta/menta_works_cosme/main.scss */
@@ -265,102 +265,99 @@ h2 {
   margin: 193px 0 0 auto; }
 
 /* line 275, /Users/shungo/Documents/Other/personal/sidej/menta/menta_works_cosme/main.scss */
-.blog-image191203 {
+.blog-image {
   width: 324px;
-  height: 215px;
-  background-image: url(images/kyle-smith-528243-unsplash.png);
-  background-size: cover; }
+  height: 215px; }
 
-/* line 282, /Users/shungo/Documents/Other/personal/sidej/menta/menta_works_cosme/main.scss */
+/* line 280, /Users/shungo/Documents/Other/personal/sidej/menta/menta_works_cosme/main.scss */
 .blog-image191102 {
   width: 324px;
   height: 215px;
   background-image: url(images/tamara-bellis-131260-unsplash.png);
   background-size: cover; }
 
-/* line 289, /Users/shungo/Documents/Other/personal/sidej/menta/menta_works_cosme/main.scss */
+/* line 287, /Users/shungo/Documents/Other/personal/sidej/menta/menta_works_cosme/main.scss */
 .blog-image191102_2 {
   width: 324px;
   height: 215px;
   background-image: url(images/blog3.png);
   background-size: cover; }
 
-/* line 296, /Users/shungo/Documents/Other/personal/sidej/menta/menta_works_cosme/main.scss */
+/* line 294, /Users/shungo/Documents/Other/personal/sidej/menta/menta_works_cosme/main.scss */
 .blog {
   width: 1004px;
   margin: 100px auto; }
 
-/* line 301, /Users/shungo/Documents/Other/personal/sidej/menta/menta_works_cosme/main.scss */
+/* line 299, /Users/shungo/Documents/Other/personal/sidej/menta/menta_works_cosme/main.scss */
 .blog-boxes {
   width: 1020px;
   margin: 25px 0; }
 
-/* line 306, /Users/shungo/Documents/Other/personal/sidej/menta/menta_works_cosme/main.scss */
+/* line 304, /Users/shungo/Documents/Other/personal/sidej/menta/menta_works_cosme/main.scss */
 .blog-box {
   width: 324px;
   float: left;
   margin-right: 16px; }
 
-/* line 312, /Users/shungo/Documents/Other/personal/sidej/menta/menta_works_cosme/main.scss */
+/* line 310, /Users/shungo/Documents/Other/personal/sidej/menta/menta_works_cosme/main.scss */
 .blog-description {
   margin-top: 16px; }
 
-/* line 316, /Users/shungo/Documents/Other/personal/sidej/menta/menta_works_cosme/main.scss */
+/* line 314, /Users/shungo/Documents/Other/personal/sidej/menta/menta_works_cosme/main.scss */
 .access {
   width: 1004px;
   margin: 100px auto; }
 
-/* line 321, /Users/shungo/Documents/Other/personal/sidej/menta/menta_works_cosme/main.scss */
+/* line 319, /Users/shungo/Documents/Other/personal/sidej/menta/menta_works_cosme/main.scss */
 .access-box {
   margin-top: 43px;
   width: 30%;
   text-align: left;
   float: left; }
 
-/* line 328, /Users/shungo/Documents/Other/personal/sidej/menta/menta_works_cosme/main.scss */
-.access-image {
+/* line 326, /Users/shungo/Documents/Other/personal/sidej/menta/menta_works_cosme/main.scss */
+.ggmap {
   height: 421px;
   width: 664px;
-  background-image: url(images/access.png);
-  background-size: cover;
   margin-left: auto;
   margin-top: 43px; }
 
-/* line 337, /Users/shungo/Documents/Other/personal/sidej/menta/menta_works_cosme/main.scss */
+/* line 333, /Users/shungo/Documents/Other/personal/sidej/menta/menta_works_cosme/main.scss */
 .access-description {
   margin-top: 5px; }
 
-/* line 341, /Users/shungo/Documents/Other/personal/sidej/menta/menta_works_cosme/main.scss */
+/* line 337, /Users/shungo/Documents/Other/personal/sidej/menta/menta_works_cosme/main.scss */
 .h3-access {
   margin-top: 30px;
   letter-spacing: 0.02;
   line-height: 1.333;
   font-family: "Montserrat"; }
 
-/* line 348, /Users/shungo/Documents/Other/personal/sidej/menta/menta_works_cosme/main.scss */
+/* line 344, /Users/shungo/Documents/Other/personal/sidej/menta/menta_works_cosme/main.scss */
 .h3-directions {
   font-family: "游ゴシック体", YuGothic; }
 
-/* line 352, /Users/shungo/Documents/Other/personal/sidej/menta/menta_works_cosme/main.scss */
+/* line 348, /Users/shungo/Documents/Other/personal/sidej/menta/menta_works_cosme/main.scss */
 .directions {
   width: 751px;
   margin: 150px auto; }
 
-/* line 357, /Users/shungo/Documents/Other/personal/sidej/menta/menta_works_cosme/main.scss */
+/* line 353, /Users/shungo/Documents/Other/personal/sidej/menta/menta_works_cosme/main.scss */
 .directions-description {
+  list-style-type: none;
   margin-top: 32px;
   font-family: "游ゴシック体", YuGothic;
   font-weight: 500px;
-  letter-spacing: 0.05;
+  letter-spacing: 0.05em;
   font-size: 16px;
   line-height: 1.5; }
 
-/* line 366, /Users/shungo/Documents/Other/personal/sidej/menta/menta_works_cosme/main.scss */
+/* line 363, /Users/shungo/Documents/Other/personal/sidej/menta/menta_works_cosme/main.scss */
 footer {
   background-color: #262626;
   border: 1px solid #5C3333; }
 
-/* line 371, /Users/shungo/Documents/Other/personal/sidej/menta/menta_works_cosme/main.scss */
+/* line 368, /Users/shungo/Documents/Other/personal/sidej/menta/menta_works_cosme/main.scss */
 .footer-logo {
   margin: 100px auto 100px auto;
   text-align: center;
@@ -369,15 +366,43 @@ footer {
   letter-spacing: 0.05;
   color: white; }
 
-/* line 382, /Users/shungo/Documents/Other/personal/sidej/menta/menta_works_cosme/main.scss */
+/* line 379, /Users/shungo/Documents/Other/personal/sidej/menta/menta_works_cosme/main.scss */
 .Price {
   width: 1004px;
   margin: 100px auto;
   overflow: hidden; }
+  /* line 383, /Users/shungo/Documents/Other/personal/sidej/menta/menta_works_cosme/main.scss */
+  .Price table {
+    width: 100%;
+    margin-top: 80px;
+    border: solid 0px black; }
+  /* line 388, /Users/shungo/Documents/Other/personal/sidej/menta/menta_works_cosme/main.scss */
+  .Price td {
+    font-family: "游ゴシック体", YuGothic;
+    font-size: 16px;
+    font-weight: bold;
+    line-height: 3; }
+  /* line 394, /Users/shungo/Documents/Other/personal/sidej/menta/menta_works_cosme/main.scss */
+  .Price tr {
+    border-bottom: dashed 1px #707070; }
+  /* line 397, /Users/shungo/Documents/Other/personal/sidej/menta/menta_works_cosme/main.scss */
+  .Price #table-bottom {
+    border: none; }
+  /* line 400, /Users/shungo/Documents/Other/personal/sidej/menta/menta_works_cosme/main.scss */
+  .Price .table-right {
+    text-align: right; }
 
-/* line 388, /Users/shungo/Documents/Other/personal/sidej/menta/menta_works_cosme/main.scss */
+/* line 405, /Users/shungo/Documents/Other/personal/sidej/menta/menta_works_cosme/main.scss */
 .about {
   width: 1004px;
   margin: 100px auto; }
+
+/* line 410, /Users/shungo/Documents/Other/personal/sidej/menta/menta_works_cosme/main.scss */
+#eye-shadow {
+  text-align: center; }
+
+/* line 416, /Users/shungo/Documents/Other/personal/sidej/menta/menta_works_cosme/main.scss */
+figcaption {
+  margin-top: 23px; }
 
 /*# sourceMappingURL=main.css.map */

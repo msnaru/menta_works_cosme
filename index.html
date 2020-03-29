@@ -55,32 +55,44 @@
                     <p></p>
                 </div>
                 <p class="h2-sub">アイテム</p>
-                <div class="item-boxes clearfix">
-                    <div class="item-box">
-                        <div class="foundation-image"></div>
-                        <p class="h3-sub">ファンデーション</p>
-                        <h3 class="h3-item">商品名</h3>
-                        <p class="description item-description">
-                            この商品の説明。この商品の説明。この商品の説明。この商品の説明。この商品の説明。この商品の説明。
-                        </p>
-                    </div>
-                    <div class="item-box">
-                        <div class="foundation-image"></div>
-                        <p class="h3-sub">リップ</p>
-                        <h3 class="h3-item">コスメ2コスメ2コスメ2コスメ2コスメ2</h3>
-                        <p class="description item-description">
-                            商品について商品について商品について商品について商品について商品について
-                        </p>
-                    </div>
-                    <div class="item-box">
-                        <div class="foundation-image"></div>
-                        <p class="h3-sub">アイシャドウ</p>
-                        <h3 class="h3-item">コスメ3コスメ3コスメ3コスメ3</h3>
-                        <p class="description item-description">
-                            真ん中真ん中真ん中真ん中真ん中真ん中真ん中真ん中真ん中真ん中真ん中
-                        </p>
-                    </div>
-                </div>
+                <ul class="item-boxes clearfix">
+                    <li class="item-box">
+                       <figure>
+                            <img src="images/item.png" alt="" class="foundation-image">
+                            <figcaption>ファンデーション</figcaption>
+                        </figure>
+                        <dl>
+                            <dt class="h3-item">商品名</dt>
+                            <dd class="description item-description">
+                                この商品の説明。この商品の説明。この商品の説明。この商品の説明。この商品の説明。この商品の説明。
+                            </dd>
+                        </dl>
+                    </li>
+                    <li class="item-box">
+                        <figure>
+                            <img src="images/item.png" alt="" class="foundation-image">
+                            <figcaption>リップ</figcaption>
+                        </figure>
+                        <dl>
+                            <dt class="h3-item">コスメ2コスメ2コスメ2コスメ2コスメ2</dt>
+                            <dd class="description item-description">
+                                商品について商品について商品について商品について商品について商品について
+                            </dd>
+                        </dl>
+                    </li>
+                    <li class="item-box">
+                        <figure>
+                            <img src="images/item.png" alt="" class="foundation-image">
+                            <figcaption>アイシャドウ</figcaption>
+                        </figure>
+                        <dl>
+                            <dt class="h3-item">コスメ3コスメ3コスメ3コスメ3</dt>
+                            <dd class="description item-description" id="eye-shadow">
+                                真ん中真ん中真ん中真ん中真ん中真ん中真ん中真ん中真ん中真ん中真ん中
+                            </dd>
+                        </dl>
+                    </li>
+                </ul>
             </div>
 
             <div class="Price">
@@ -90,8 +102,28 @@
                         <p></p>
                     </div>
                     <p class="h2-sub h2-sub-price">料金表</p>
-                    <h3 class="h3-about">お店のコンセプト</h3>
-                    <p class="description about-description">コンセプトについての説明。コンセプトについての説明。コンセプトについての説明。コンセプトについての説明。コンセプトについての説明。コンセプトについての説明。</p>
+                    <table>
+                        <tr>
+                            <td>アイライナー</td>
+                            <td class="table-right">¥3,000</td>
+                        </tr>
+                        <tr>
+                            <td>リップ</td>
+                            <td class="table-right">¥3,000</td>
+                        </tr>
+                        <tr>
+                            <td>グロス</td>
+                            <td class="table-right">¥3,000</td>
+                        </tr>
+                        <tr>
+                            <td>シャドウ</td>
+                            <td class="table-right">¥3,000</td>
+                        </tr>
+                        <tr id="table-bottom">
+                            <td>マニキュア</td>
+                            <td class="table-right">¥3,000</td>
+                        </tr>
+                    </table>
                 </div>
                 <div class="price-image"></div>
             </div>
@@ -104,22 +136,22 @@
                 <p class="h2-sub">ブログ</p>
                 <div class="blog-boxes clearfix">
                     <div class="blog-box">
-                        <div class="blog-image191203"></div>
-                        <p class="h3-sub">2019/12/3</p>
+                        <img src="images/kyle-smith-528243-unsplash.png" alt="" class="blog-image">
+                        <div class="blog-sub"><time datetime="2019-12-03">2019/12/3</time></div>
                         <p class="description blog-description">
                             1月の営業日ご案内。
                         </p>
                     </div>
                     <div class="blog-box">
-                        <div class="blog-image191102"></div>
-                        <p class="h3-sub">2019/11/2</p>
+                        <img src="images/tamara-bellis-131260-unsplash.png" alt="" class="blog-image">
+                        <div class="blog-sub"><time datetime="2019-11-02">2019/11/2</time></div>
                         <p class="description blog-description">
                             12月の営業日ご案内。
                         </p>
                     </div>
                     <div class="blog-box">
-                        <div class="blog-image191102_2"></div>
-                        <p class="h3-sub">2019/11/2</p>
+                        <img src="images/blog3.png" alt="" class="blog-image">
+                        <div class="blog-sub"><time datetime="2019-11-02">2019/11/2</time></div>
                         <p class="description blog-description">
                             メイク始めました。
                         </p>
@@ -153,11 +185,23 @@
                             土曜日曜祝日
                         </p>
                     </div>
-                    <div class="access-image"></div>
+                    <div class="ggmap">
+                        <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m12!1m3!1d2905.3977754714997!2d135.49733279251177!3d34.7028939734501!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!5e0!3m2!1sja!2sjp!4v1583156561655!5m2!1sja!2sjp" width="600" height="450" frameborder="0" style="border:0;" allowfullscreen=""></iframe>
+                    </div>
                 </div>
                 <div class="directions">
                     <h3 class="h3-directions">道順の説明</h3>
-                    <p class="directions-description">①行き方の説明行き方の説明行き方の説明行き方の説明行き方の説明行き方の説明行き方の説明行き方の説明行き方の説明行き方の説明行き方の説明行き方の説明行き方の説明行き方の説明行き方の説明行き方の説明<br><br>②行き方の説明行き方の説明行き方の説明行き方の説明行き方の説明行き方の説明行き方の説明行き方の説明行き方の説明行き方の説明行き方の説明行き方の説明行き方の説明行き方の説明行き方の説明行き方の説明<br><br>③行き方の説明行き方の説明行き方の説明行き方の説明行き方の説明行き方の説明行き方の説明行き方の説明行き方の説明行き方の説明行き方の説明行き方の説明行き方の説明行き方の説明行き方の説明行き方の説明</p>
+                    <ol class="directions-description">
+                        <li>
+                            ①行き方の説明行き方の説明行き方の説明行き方の説明行き方の説明行き方の説明行き方の説明行き方の説明行き方の説明行き方の説明行き方の説明行き方の説明行き方の説明行き方の説明行き方の説明行き方の説明<br><br>
+                        </li>
+                        <li>
+                            ②行き方の説明行き方の説明行き方の説明行き方の説明行き方の説明行き方の説明行き方の説明行き方の説明行き方の説明行き方の説明行き方の説明行き方の説明行き方の説明行き方の説明行き方の説明行き方の説明<br><br>
+                        </li>
+                        <li>
+                            ③行き方の説明行き方の説明行き方の説明行き方の説明行き方の説明行き方の説明行き方の説明行き方の説明行き方の説明行き方の説明行き方の説明行き方の説明行き方の説明行き方の説明行き方の説明行き方の説明
+                        </li>
+                    </ol>
                 </div>
             </div>
 
