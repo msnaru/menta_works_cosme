@@ -351,10 +351,11 @@ h2 {
 }
 
 .directions-description {
+    list-style-type: none;
     margin-top: 32px;
     font-family: "游ゴシック体", YuGothic;
     font-weight: 500px;
-    letter-spacing: 0.05;
+    letter-spacing: 0.05em;
     font-size: 16px;
     line-height: 1.5;
 }
@@ -409,3 +410,5 @@ footer {
 #eye-shadow {
     text-align: center;
 }
+
+
