@@ -393,15 +393,15 @@ footer {
         font-weight: bold;
         line-height: 3;
     }
+        text-align: right;
+    }
     tr {
         border-bottom: dashed 1px #707070;
     }
     #table-bottom {
         border: none;
     }
-    .table-right {
-        text-align: right;
-    }
+
 }
 
 .about {
@@ -417,4 +417,13 @@ footer {
 
 figcaption {
     margin-top: 23px;
+}
+
+th {
+    display: inline;
+    text-align: left;
+    font-family: "游ゴシック体", YuGothic;
+    font-size: 16px;
+    font-weight: bold;
+    line-height: 3;
 }
