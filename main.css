@@ -126,7 +126,7 @@ h1 {
   width: 304px;
   border: 1px solid #707070;
   background-color: #f0f0f0;
-  margin: 186px 0 0 0;
+  margin-top: 86px;
   padding: 77px 57px 77px 57px; }
 
 /* line 134, /Users/shungo/Documents/Other/personal/sidej/menta/menta_works_cosme/main.scss */
@@ -136,7 +136,7 @@ h1 {
   float: right;
   background-image: url(images/about.png);
   background-size: cover;
-  margin: 245px 0 0 0; }
+  margin-top: 145px; }
 
 /* line 147, /Users/shungo/Documents/Other/personal/sidej/menta/menta_works_cosme/main.scss */
 .h2-about {
