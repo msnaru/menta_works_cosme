@@ -152,13 +152,7 @@ h1 {
     font-size: 16px;
     font-weight: bold;
     font-family: "游ゴシック体", YuGothic;
-    margin-top: 15px;
-}
-
-.h2-border {
-    border-bottom: 5px solid black;
-    margin-top: 16px;
-    width: 69px;
+    margin: 40px 0;
 }
 
 h3 {
@@ -177,7 +171,18 @@ h3 {
 h2 {
     font-size: 48px;
     font-weight: bold;
-    margin: 5px 0;
+    margin: 5px auto;
+    display: inline-block;
+    position: relative;
+    &::after{
+        content: "";
+        position: absolute;
+        border-bottom: 5px solid black;
+        right: 0;
+        left: 0;
+        bottom: -15px;
+        width: 69px;
+    }
 }
 
 .description {
@@ -249,14 +254,14 @@ h2 {
     background-color: rgba(255,255,255, 0.8);
     padding: 55px 85px;
     margin: 0 auto auto 0;
+    text-align: center;
+    h2::after{
+        margin: 0 auto;
+    }
 }
 
 .h2-price {
     text-align: center;
-}
-
-.h2-border-price {
-    margin: 16px auto 0 auto;
 }
 
 .h2-sub-price {
