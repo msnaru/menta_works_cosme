@@ -26,61 +26,88 @@ header {
             top: 520px;
         }
     }
-}
-
-
-
-
-
-.nav-list {
-    color: black;
-    text-decoration: none;
-    font-size: 18px;
-    &:hover {
-        padding-bottom: 5px;
-        border-bottom: 8px solid black;
-        font-size: 18px;
+    #header-box {
+        height: 100px;
+        .nav {
+            margin-top: 30px;
+            &-list {
+                color: black;
+                text-decoration: none;
+                font-size: 18px;
+                &:hover {
+                    padding-bottom: 5px;
+                    border-bottom: 8px solid black;
+                    font-size: 18px;
+                }
+            }
+        }
+        ul li {
+            display: inline;
+            margin: 0 35px;
+        }
+    }
+    #LogoLOGO {
+        font-size: 20px;
+        font-weight: bold;
+        color: white;
+        margin: 0;
+        letter-spacing: 0.05em;
+        position: absolute;
+        top: 36px;
+        left: 40px;
+        &-sub {
+            font-size: 12px;
+            font-family: "游ゴシック体", YuGothic;
+            letter-spacing: 0.05em;
+            color: white;
+            margin-top: 6px;
+            position: absolute;
+            top: 68px;
+            left: 40px;
+        }
+    }
+    .scroll {
+        display:block;
+        width: 60px;
+        margin: 621px auto 0 auto;
+        span {
+            width: 27px;
+            height: 27px;
+            -webkit-transform: rotate(-45deg);
+            -moz-transform: rotate(-45deg);
+            -ms-transform: rotate(-45deg);
+            -o-transform: rotate(-45deg);
+            transform: rotate(-45deg);
+            border-left: 10px solid white;
+            border-bottom: 10px solid white;
+            border-radius: 3px;
+            z-index: 1;
+            display:inline-block;
+            text-align: center;
+        }
     }
 }
 
-#LogoLOGO {
-    font-size: 20px;
-    font-weight: bold;
-    color: white;
-    margin: 0;
-    letter-spacing: 0.05em;
-    position: absolute;
-    top: 36px;
-    left: 40px;
+footer {
+    background-color: #262626;
+    border: 1px solid #5C3333;
+    .footer-logo {
+        margin: 100px auto 100px auto;
+        text-align: center;
+        font-size: 80px;
+        font-weight: bold;
+        letter-spacing: 0.05;
+        color: white;
+    }
 }
 
-#LogoLOGO-sub {
-    font-size: 12px;
+th {
+    display: inline;
+    text-align: left;
     font-family: "游ゴシック体", YuGothic;
-    letter-spacing: 0.05em;
-    color: white;
-    margin-top: 6px;
-    position: absolute;
-    top: 68px;
-    left: 40px;
-}
-
-#header-box {
-    height: 100px;
-    .nav {
-        margin-top: 30px;
-    }
-    ul li {
-        display: inline;
-        margin: 0 35px;
-    }
-}
-
-header {
-    height: 806px;
-    width: 100%;
-    background-image: url(images/main.png);
-    background-size: cover;
+    font-size: 16px;
+    font-weight: bold;
+    line-height: 3;
 }
 
 h1 {
@@ -89,78 +116,6 @@ h1 {
     position: absolute;
     left: 138px;
     top: 360px;
-}
-
-.clearfix::after {
-    content: "";
-    display: block;
-    clear: both;
-}
-
-
-.scroll {
-    display:block;
-    width: 60px;
-    margin: 621px auto 0 auto;
-}
-
-.scroll span {
-    width: 27px;
-    height: 27px;
-    -webkit-transform: rotate(-45deg);
-    -moz-transform: rotate(-45deg);
-    -ms-transform: rotate(-45deg);
-    -o-transform: rotate(-45deg);
-    transform: rotate(-45deg);
-    border-left: 10px solid white;
-    border-bottom: 10px solid white;
-    border-radius: 3px;
-    z-index: 1;
-    display:inline-block;
-    text-align: center;
-}
-
-.about-box {
-    width: 304px;
-    border: 1px solid #707070;
-    background-color: rgb(240,240,240);
-    padding: 77px 57px 77px 57px;
-}
-
-.about-image {
-    height: 329.29px;
-    width: 494px;
-    background-image: url(images/about.png);
-    background-size: cover;
-}
-
-
-
-
-
-.h2-about {
-    font-size: 48px;
-    font-weight: bold;
-}
-
-.h2-sub {
-    font-size: 16px;
-    font-weight: bold;
-    font-family: "游ゴシック体", YuGothic;
-    margin: 40px 0;
-}
-
-h3 {
-    font-size: 24px;
-    font-weight: bold;
-}
-
-.plane-about {
-    width: 305px;
-    font-size: 16px;
-    font-family: "游ゴシック体", YuGothic;
-    margin-top: 15px;
-    line-height: 2;
 }
 
 h2 {
@@ -180,45 +135,28 @@ h2 {
     }
 }
 
-.description {
-    font-family: "游ゴシック体", YuGothic;
-    font-weight: 500px;
-    font-size: 16px;
-    line-height: 2;
+h3 {
+    font-size: 24px;
+    font-weight: bold;
 }
 
-.about-description {
-    margin-top: 15px;
-    width: 305px;
-
+.h2-about {
+    font-size: 48px;
+    font-weight: bold;
 }
 
-.item {
-    width:1004px;
-    margin: 100px auto;
-}
-
-.foundation-image {
-    width: 324px;
-    height: 215px;
-    background-size: cover;
-}
-
-.item-box {
-    width: 324px;
-    list-style-type: none;
-}
-
-.item-boxes {
-    margin: 25px 0;
-}
-
-.blog-sub {
-    display: block;
+.h2-sub {
     font-size: 16px;
     font-weight: bold;
-    letter-spacing: 0.02;
-    margin-top: 20px;
+    font-family: "游ゴシック体", YuGothic;
+    margin: 40px 0;
+    &-price {
+        text-align: center;
+    }
+}
+
+.h2-price {
+    text-align: center;
 }
 
 .h3-about {
@@ -235,104 +173,6 @@ h2 {
     font-family: 'Montserrat', ;
 }
 
-.item-description {
-    margin-top: 16px;
-}
-
-
-.price-box {
-    flex-basis: 30%;
-    border: 5px solid #A38787;
-    background-color: rgba(255,255,255, 0.8);
-    padding: 55px 85px;
-    margin: 0 auto auto 0;
-    text-align: center;
-    z-index: 1;
-    h2::after{
-        margin: 0 auto;
-    }
-}
-
-.h2-price {
-    text-align: center;
-}
-
-.h2-sub-price {
-    text-align: center;
-}
-
-.price-image {
-    height: 884px;
-    flex-basis: 50%;
-    background-image: url(images/price.png);
-    background-size: cover;
-    margin: 193px 0 0 auto;
-    position: absolute;
-    right: 0;
-    z-index: 0;
-}
-
-.blog-image {
-    width: 324px;
-    height: 215px;
-}
-
-.blog-image191102 {
-    width: 324px;
-    height: 215px;
-    background-image: url(images/tamara-bellis-131260-unsplash.png);
-    background-size: cover;
-}
-
-.blog-image191102_2 {
-    width: 324px;
-    height: 215px;
-    background-image: url(images/blog3.png);
-    background-size: cover;
-}
-
-.blog {
-    width: 1004px;
-    margin: 100px auto;
-}
-
-.blog-boxes {
-    width: 1020px;
-    margin: 25px 0;
-}
-
-.blog-box {
-    width: 324px;
-    margin-right: 16px;
-}
-
-.blog-description {
-    margin-top: 16px;
-}
-
-.access {
-    width: 1004px;
-    margin: 100px auto;
-}
-
-.access-box {
-    margin-top: 43px;
-    width: 30%;
-    text-align: left;
-}
-
-.ggmap {
-    height: 421px;
-    width: 664px;
-    margin-left: auto;
-    margin-top: 43px;
-    border: 0;
-}
-
-.access-description {
-    margin-top: 5px;
-}
-
 .h3-access {
     margin-top: 30px;
     letter-spacing: 0.02;
@@ -346,36 +186,72 @@ h2 {
     font-family: "游ゴシック体", YuGothic;
 }
 
-.directions {
-    width: 751px;
-    margin: 150px auto;
+.flexbox {
+    display: flex;
+    justify-content: space-between;
 }
 
-.directions-description {
-    list-style-type: none;
-    margin-top: 32px;
+.clearfix::after {
+    content: "";
+    display: block;
+    clear: both;
+}
+
+.description {
     font-family: "游ゴシック体", YuGothic;
     font-weight: 500px;
-    letter-spacing: 0.05em;
     font-size: 16px;
-    line-height: 1.5;
+    line-height: 2;
 }
 
-footer {
-    background-color: #262626;
-    border: 1px solid #5C3333;
+.about {
+    width:1004px;
+    margin: 180px auto;
+    align-items: center;
+    &-description {
+        margin-top: 15px;
+        width: 305px;
+    }
+    &-box {
+        width: 304px;
+        border: 1px solid #707070;
+        background-color: rgb(240,240,240);
+        padding: 77px 57px 77px 57px;
+    }
+    &-image {
+        height: 329.29px;
+        width: 494px;
+        background-image: url(images/about.png);
+        background-size: cover;
+    }
 }
 
-.footer-logo {
-    margin: 100px auto 100px auto;
-    text-align: center;
-    font-size: 80px;
-    font-weight: bold;
-    letter-spacing: 0.05;
-    color: white;
+.item {
+    width:1004px;
+    margin: 100px auto;
+    &-box {
+        width: 324px;
+        list-style-type: none;
+        #eye-shadow {
+            text-align: center;
+        }
+        &-image {
+            width: 324px;
+            height: 215px;
+            background-size: cover;
+        }
+        figcaption {
+            margin-top: 23px;
+            font-weight: bold;
+        }
+    }
+    &-boxes {
+        margin: 25px 0;
+    }
+    &-description {
+        margin-top: 16px;
+    }
 }
-
-
 
 .Price {
     width: 1004px;
@@ -402,36 +278,98 @@ footer {
     #price-image-wrap {
         position:  relative;
     }
+    &-box {
+        flex-basis: 30%;
+        border: 5px solid #A38787;
+        background-color: rgba(255,255,255, 0.8);
+        padding: 55px 85px;
+        margin: 0 auto auto 0;
+        text-align: center;
+        z-index: 1;
+        h2::after{
+            margin: 0 auto;
+        }
+    }
+    &-image {
+        height: 884px;
+        flex-basis: 50%;
+        background-image: url(images/price.png);
+        background-size: cover;
+        margin: 193px 0 0 auto;
+        position: absolute;
+        right: 0;
+        z-index: 0;
+    }
 }
 
-.about {
-    width:1004px;
-    margin: 180px auto;
-    align-items: center;
+.blog {
+    width: 1004px;
+    margin: 100px auto;
+    &-image {
+        width: 324px;
+        height: 215px;
+    }
+    &-boxes {
+        width: 1020px;
+        margin: 25px 0;
+    }
+    &-box {
+        width: 324px;
+        margin-right: 16px;
+    }
+    &-description {
+        margin-top: 16px;
+    }
+    &-sub {
+        display: block;
+        font-size: 16px;
+        font-weight: bold;
+        letter-spacing: 0.02;
+        margin-top: 20px;
+    }
+    &image191102 {
+        width: 324px;
+        height: 215px;
+        background-image: url(images/tamara-bellis-131260-unsplash.png);
+        background-size: cover;
+    }
+    &-image191102_2 {
+        width: 324px;
+        height: 215px;
+        background-image: url(images/blog3.png);
+        background-size: cover;
+    }
 }
 
-#eye-shadow {
-    text-align: center;
+.access {
+    width: 1004px;
+    margin: 100px auto;
+    &-box {
+        margin-top: 43px;
+        width: 30%;
+        text-align: left;
+    }
+    &-description {
+        margin-top: 5px;
+    }
+    .directions {
+        width: 751px;
+        margin: 150px auto;
+        &-description {
+            list-style-type: none;
+            margin-top: 32px;
+            font-family: "游ゴシック体", YuGothic;
+            font-weight: 500px;
+            letter-spacing: 0.05em;
+            font-size: 16px;
+            line-height: 1.5;
+        }
+    }
+    .ggmap {
+        height: 421px;
+        width: 664px;
+        margin-left: auto;
+        margin-top: 43px;
+        border: 0;
+    }
 }
-
-
-
-figcaption {
-    margin-top: 23px;
-}
-
-th {
-    display: inline;
-    text-align: left;
-    font-family: "游ゴシック体", YuGothic;
-    font-size: 16px;
-    font-weight: bold;
-    line-height: 3;
-}
-
-.flexbox {
-    display: flex;
-    justify-content: space-between;
-}
-
-
